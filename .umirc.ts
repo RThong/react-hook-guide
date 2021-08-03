@@ -11,6 +11,7 @@ export default defineConfig({
       routes: [
         { path: '/deps/1', component: '@/pages/deps/demo1' },
         { path: '/deps/2', component: '@/pages/deps/demo2' },
+        { path: '/deps/3', component: '@/pages/deps/demo3', text: '多个相互关联的依赖' },
         { path: '/useState', component: '@/pages/useState/SetStateCallBack' },
         {
           path: '/useRef/ThirdLib',
