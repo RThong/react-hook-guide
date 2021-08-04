@@ -14,8 +14,7 @@ export default function IndexPage(props) {
           </Button>
         ))}
       </Space>
-
-      {props.children}
+      <div style={{ padding: 20 }}>{props.children}</div>
     </div>
   );
 }

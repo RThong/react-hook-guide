@@ -9,6 +9,8 @@ export default defineConfig({
       path: '/',
       component: '@/pages/index',
       routes: [
+        { path: '/deps/4', component: '@/pages/deps/demo4', text: '添加所有依赖' },
+        { path: '/deps/5', component: '@/pages/deps/demo5', text: '不能去除函数依赖' },
         { path: '/deps/1', component: '@/pages/deps/demo1' },
         { path: '/deps/2', component: '@/pages/deps/demo2' },
         { path: '/deps/3', component: '@/pages/deps/demo3', text: '多个相互关联的依赖' },
